@@ -1,0 +1,15 @@
+{
+    "name": "Passphrase Generator",
+    "description": "Generate a passphrase",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["contextMenus", "scripting"],
+    "host_permissions": ["*://*/*"],
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "icons": {
+        "128": "icon128.png"
+    }
+}
